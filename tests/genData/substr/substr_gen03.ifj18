@@ -1,0 +1,8 @@
+#substr code gen
+
+s = "hello"
+i = 50
+n = 4
+s = substr(s, i, n)
+
+print s

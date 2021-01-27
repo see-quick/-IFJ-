@@ -1,0 +1,6 @@
+a = "ahoj"
+if a == 2 then
+	print("error 2a")
+else
+	print("error 2b")
+end

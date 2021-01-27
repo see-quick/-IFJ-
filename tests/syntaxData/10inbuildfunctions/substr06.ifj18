@@ -1,0 +1,7 @@
+# simple substr without brackets
+
+var = "Hello"
+start = 1
+len = 2
+
+mynewstr = substr var,start,len

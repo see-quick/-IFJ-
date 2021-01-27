@@ -1,0 +1,9 @@
+#test riadkovych komentarov
+
+comentary = 50 #I am assigning value to comentary. Simply useless comentary
+# another comment "9797
+# #####
+# =begin =end
+#
+another = 4
+#end of file

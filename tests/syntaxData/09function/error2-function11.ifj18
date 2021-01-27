@@ -1,0 +1,8 @@
+#definicia jednoduchej funkcie
+
+def foo (a)
+	a = 5
+end
+
+b = foo
+(a)

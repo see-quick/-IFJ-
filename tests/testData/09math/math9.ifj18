@@ -1,0 +1,24 @@
+a = 0
+b = 2
+c = 6
+
+a = b + 1 - 1
+print ("\na je:", a)
+
+a = b + c + 3
+print ("\na je:", a)
+
+a = c * b + c + 3
+print ("\na je:", a)
+
+a = c * b + c + 2 / 2
+print ("\na je:", a)
+
+a = c * (b + c) + 2 / 2
+print ("\na je:", a)
+
+a = c * b + c - 2 / 2
+print ("\na je:", a)
+
+a = c * (b + c) + 2 / 2 + 3 - 1 * 2
+print ("\na je:", a)

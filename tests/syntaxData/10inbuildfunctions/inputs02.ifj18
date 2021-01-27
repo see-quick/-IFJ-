@@ -1,0 +1,4 @@
+# inputs without parenthesis
+
+a = "String"
+a = inputs

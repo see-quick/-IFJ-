@@ -1,0 +1,10 @@
+def foo()
+	a = 1
+end
+
+b = foo()
+if ( b!= "string") then
+	c = 4
+else
+	c = 5
+end

@@ -1,0 +1,7 @@
+#declaration of function with ! and ?
+
+def foo!
+	
+end
+
+foo!

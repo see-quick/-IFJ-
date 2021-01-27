@@ -1,0 +1,8 @@
+a = 5
+b = 7
+
+if a != b then
+	a = 6
+else
+	b = 6
+end

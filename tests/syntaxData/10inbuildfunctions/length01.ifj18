@@ -1,0 +1,4 @@
+# Testing length(s)
+
+id = 5
+id = length("Hello")

@@ -1,0 +1,29 @@
+#test pre while
+
+def foo (a)
+	b = 4
+	while a < 3 do
+		a = a + 1
+		while b != 10 do
+			a = a + 1
+			b = b + 1
+			print b, a 
+		end
+		if a > 4 then
+			print a
+		else
+			a = 25
+			b = a / a
+		end
+	end
+end
+
+a = 1
+
+b = foo a
+
+while b != 10 do
+	a = a + 1
+	b = b + 1
+	print a
+end

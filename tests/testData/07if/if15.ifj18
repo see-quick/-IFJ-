@@ -1,0 +1,15 @@
+#tests for if statement
+
+def foo()
+	a = 4
+
+	if a > 3 then
+
+		a = 5
+	else
+		print a
+	end
+end
+
+b = 4
+b = foo

@@ -1,0 +1,6 @@
+# length code gen
+
+s = "Hello"
+i = length(s)
+
+print i

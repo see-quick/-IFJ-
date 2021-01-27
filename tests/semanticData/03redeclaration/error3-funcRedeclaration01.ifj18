@@ -1,0 +1,12 @@
+#function redeclaration
+
+def foo (n)
+	n = n + 1
+end
+
+def foo (a)
+	a = a + 1
+end
+
+a = 5
+a = foo 5

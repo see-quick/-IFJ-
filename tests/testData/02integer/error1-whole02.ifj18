@@ -1,0 +1,3 @@
+#Error pre prebytocne nuly na zaciatku celociselneho literalu
+
+number = 00005

@@ -1,0 +1,3 @@
+# Complex ord(s,i) calling
+
+myvar = ord(20, "World")

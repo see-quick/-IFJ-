@@ -1,0 +1,8 @@
+#substr code gen
+s = "He\x4BAAllo"
+i = 2
+n = 3
+
+s = substr s, i, n
+
+print s

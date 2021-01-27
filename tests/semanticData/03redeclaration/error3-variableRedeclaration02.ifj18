@@ -1,0 +1,7 @@
+#redeclaration of variable
+
+def foo a()
+end
+
+a = 6
+a = 5.23

@@ -1,0 +1,9 @@
+#function redeclaration
+
+def b(a)
+
+	b = a
+end
+
+a = 4
+a = b(a)

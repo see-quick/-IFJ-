@@ -1,0 +1,3 @@
+#Syntax errors for length
+
+var = length(Hello")

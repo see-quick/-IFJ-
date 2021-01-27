@@ -1,0 +1,17 @@
+# signal filtering
+
+def filter(a)
+
+    x1 = a * 0.6
+    x2 = x1 * 0.6
+
+    result = x1 + x2 + a
+end
+
+a = 1.0
+
+while a < 10 do
+  a = inputf
+  a = a + filter(a)
+  print a
+end

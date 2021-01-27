@@ -1,0 +1,5 @@
+#definicia jednoduchej funkcie
+
+def foo (a,b))
+	a = 5
+end

@@ -1,0 +1,18 @@
+#test desatinnych cisel 
+
+number = 0.0
+number = 1.0
+number = 1.11111
+number = 0e0
+number = 0.0e0
+number = 0.0e-0
+number = 1.0e0
+number = 1e0005
+number = 1e10
+number = 1E10
+number = 1e+3
+number = 1e-3
+number = 1E+3
+number = 1E-3
+number = 20.45e12
+number = 20.45E-4

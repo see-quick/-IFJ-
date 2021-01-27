@@ -1,0 +1,9 @@
+#volani fce s moc parametry
+a = 1
+b = "ahoj"
+
+def foo (k)
+	k = a + b
+end
+
+c = foo(k,l)

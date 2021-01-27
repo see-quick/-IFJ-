@@ -1,0 +1,6 @@
+a = 1
+if a > 2 then
+	print("a je vetsi nez 2")
+else
+	print("a neni vetsi nez 2")
+end

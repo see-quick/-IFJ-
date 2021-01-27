@@ -1,0 +1,6 @@
+# length code gen
+
+s = "H\nell"
+i = length(s)
+
+print i

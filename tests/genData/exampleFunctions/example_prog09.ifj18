@@ -1,0 +1,18 @@
+# Print biggest number from three numbers
+
+a = inputi
+print "\n"
+b = inputi
+print "\n"
+c = inputi
+print "\n"
+
+if c > b then
+    if c > a then
+        print "\nBiggest number is ", c, "\n"
+    else
+        print "\nBiggest number is ", a, "\n"
+    end
+else
+    print "\nBiggest number is ", b, "\n"
+end

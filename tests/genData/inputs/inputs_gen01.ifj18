@@ -1,0 +1,4 @@
+# inputs test
+
+a = "test"
+a = inputs

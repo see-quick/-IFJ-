@@ -1,0 +1,8 @@
+a = "Hello"
+b = 8
+
+if a != b then
+	a = "yes"
+else
+	a = "no"
+end

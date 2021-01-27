@@ -1,0 +1,9 @@
+# nil comparision
+
+a = a
+
+if a < 5 then
+	print "YES"
+else
+	print "NO"
+end

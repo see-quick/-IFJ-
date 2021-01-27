@@ -1,0 +1,4 @@
+# ascii escape
+
+a = "\xddobre"
+print a

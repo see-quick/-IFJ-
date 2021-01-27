@@ -1,0 +1,9 @@
+#test pre jednoduchy retazcovy literal
+
+chain = "Hello World!"
+chain = "Long string chain, very long string chain, very very long string chain, very very very long string chain" 
+chain = ""
+chain = "asd123sad"
+chain = "12sad"
+chain = "5ee5"
+chain = "Aasd+_?!"

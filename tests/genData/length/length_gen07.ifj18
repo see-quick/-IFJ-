@@ -1,0 +1,6 @@
+# length code gen
+
+s = "\\"
+i = length(s)
+
+print i

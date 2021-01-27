@@ -1,0 +1,4 @@
+# inputs test
+
+a = inputs
+a = "5" + "world"

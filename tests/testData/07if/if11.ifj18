@@ -1,0 +1,10 @@
+#tests for if statement
+
+a = 4
+
+if a > 3 then
+
+	a = 5
+else
+	print a
+end

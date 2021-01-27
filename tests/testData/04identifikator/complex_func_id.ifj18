@@ -1,0 +1,35 @@
+#testovanie zlozitejsich identifikatorov pre funkcie
+
+def foo(n)
+	n = 5
+end
+
+def _foo(n)
+	n = 5
+end
+
+def fOO(n)
+	n = 5
+end
+
+def foo?(n)
+	n = 5
+end
+
+def foo!(n)
+	n = 5
+end
+
+def _foo!(n)
+	n = 5
+end
+
+def _foo?(n)
+	n = 5
+end
+
+#def __myFUNCTIONidentifier99__!(n)
+#	n = 5
+#end
+
+

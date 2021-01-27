@@ -1,0 +1,9 @@
+# Testing length(s) in function + prece analyze
+
+def foo(a)
+	b = length(a)
+end
+
+str = "Hello"
+
+count = 5 + foo(str)

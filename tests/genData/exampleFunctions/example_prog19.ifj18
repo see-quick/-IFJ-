@@ -1,0 +1,37 @@
+#Taylor polynom for log
+
+def taylor_log(x, n)
+  result = 0.0
+	x_exp = 1
+	numerator_fraction = 0.0
+	i = 1
+
+	if x > 1 then
+		numerator_fraction = (x - 1) / x
+
+		while i <= n do
+			x_exp = x_exp * numerator_fraction
+			result = result + x_exp / i
+			i = i + 1
+		end
+	else
+		x = 1 - x
+
+		while i <= n do
+			x_exp = x_exp * x
+			result = result - (x_exp / i)
+			i = i + 1
+		end
+	end
+	result = result
+end
+
+	d = inputi
+	print "\n"
+	d = taylor_log(d, 10)
+	print d, "\n"
+
+	d = inputi
+	print "\n"
+	d = taylor_log(d, 20)
+	print d, "\n"

@@ -1,0 +1,11 @@
+# Program to Count Number of Digits in an Integer
+
+a = inputi
+sum = 0
+
+while a != 0 do
+    a = a / 10
+    sum = sum + 1
+end
+
+print "\nNumber of digits is: ", sum, "\n"

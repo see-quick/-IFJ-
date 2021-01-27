@@ -1,0 +1,6 @@
+#if nil
+if a == a then
+	print("nil ok")
+else
+	print("error 2b")
+end

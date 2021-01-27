@@ -1,0 +1,8 @@
+# in function chr(i)
+
+def foo(a)
+	b = chr(a)
+end
+
+a = 26
+c = foo(a)

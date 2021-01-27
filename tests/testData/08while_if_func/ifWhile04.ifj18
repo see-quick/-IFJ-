@@ -1,0 +1,17 @@
+#test pre while
+
+def foo (a)
+b = a
+	while a != 5 do
+		a = a + 1
+		if a > 6 then
+			b = a + 20
+		else
+			b = a - 20
+		end			
+	end
+end
+
+a = 1
+
+b = foo a

@@ -1,0 +1,10 @@
+#nil test for inputs
+
+a = a
+b = inputs
+
+if a == b then
+	print "YES"
+else
+	print "NO"
+end

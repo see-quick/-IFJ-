@@ -1,0 +1,10 @@
+# nil comparision
+
+a = a
+b = b
+
+if a <= b then
+	print "YES"
+else
+	print "NO"
+end

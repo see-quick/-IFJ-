@@ -1,0 +1,11 @@
+# chr code gen
+
+i = 0
+s = chr i 
+a = a #create nil
+
+if a == s then
+	print "YES"
+else
+	print "NO"
+end

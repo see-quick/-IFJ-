@@ -1,0 +1,7 @@
+a = "Hello"
+
+if a < "Nope" then
+	a = "yes"
+else
+	a = "no"
+end

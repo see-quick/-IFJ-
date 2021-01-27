@@ -1,0 +1,12 @@
+# Add numbers from 1 to n
+    
+    a = inputi
+    b = 1
+    sum = 0
+    
+	while b <= a do
+        sum = sum + b
+        b = b + 1
+    end
+    
+    print "\nSum of numbers from 1 to ", a , " is: ", sum, "\n"

@@ -1,0 +1,14 @@
+#substr code gen
+
+s = "hello"
+i = 0
+n = 4 - 5
+s = substr(s, i, n)
+
+a = a #creating nil
+
+if a == s then
+	print "YES"
+else
+	print "NO"
+end

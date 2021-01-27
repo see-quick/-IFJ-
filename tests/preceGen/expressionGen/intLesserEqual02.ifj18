@@ -1,0 +1,7 @@
+a = 5
+
+if a <= 18 then
+	a = 6
+else
+	a = 78
+end

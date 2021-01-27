@@ -1,0 +1,7 @@
+#test zlositejsich retazcovych literalov
+
+
+chain = "\x22"
+chain = "\x7E\x40\x7E\x7E\x7E"
+chain = " \x22 \x40 1e \x7E \x22 \x40, + e 1 \x40 \x22 \x40 1e \x7E \x22 \x40, + e 1 \x40" 
+

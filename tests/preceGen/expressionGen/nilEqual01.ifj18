@@ -1,0 +1,8 @@
+a = 12
+b = 10
+
+if a == b then
+	a = b
+else
+	b = a
+end

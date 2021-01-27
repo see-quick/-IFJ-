@@ -1,0 +1,6 @@
+a = 1
+if a >= 2 then
+	print("a je vetsi nebo rovno 2")
+else
+	print("a neni vetsi nebo rovno 2")
+end

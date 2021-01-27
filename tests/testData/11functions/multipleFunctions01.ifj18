@@ -1,0 +1,26 @@
+# function call
+
+
+def fooTemp (b)
+
+	c = 1
+	c = foo b 
+	while c < 10 do
+		c = foo c
+	end
+end
+
+def foo (a)
+	a = foo2 a
+end
+
+def foo2 (a)
+	a = foo3 a
+end
+
+def foo3 (a)
+	a = a + 1
+end
+
+a = 1
+a = fooTemp(a)

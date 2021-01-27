@@ -1,0 +1,21 @@
+#tests for if statement
+
+def foo (a)
+
+	if a < 3 then
+
+		a = 5
+	else
+		print a
+
+		if a < 5 then
+			a = 6
+		else
+			a = a + 1
+			print a
+		end
+	end
+end	
+
+a = 4
+b = foo a

@@ -1,0 +1,9 @@
+a = 0
+a = 1 + 1
+print ("\na je:", a)
+a = 1 - 1
+print ("\na je:", a)
+a = 2 * 2
+print ("\na je:", a)
+a = 6 / 2
+print ("\na je:", a)

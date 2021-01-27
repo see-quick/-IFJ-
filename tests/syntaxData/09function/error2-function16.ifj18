@@ -1,0 +1,7 @@
+#Mělo načíst "fun!" pro token identifikátor funkce (pozor, proměnné nemohou mít na konci ? nebo !) a až při dalším zavolání ze syntaktické analýzy dojde k načtení tokenu pro "=" a máme tu syntaktickou chybu. <- Krivka
+
+def fun()
+1
+end
+
+fun!=5 

@@ -1,0 +1,7 @@
+#multiple params
+
+def foo (a,b,c,d)
+	a = b + d
+	c = d + a
+	b = a + c
+end

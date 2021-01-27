@@ -1,0 +1,3 @@
+#Vyvolanie lexikalneho erroru pri celych cislach
+
+number = -5

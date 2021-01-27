@@ -1,0 +1,4 @@
+# Error missing parenthesis
+
+a = "String"
+a = inputf(

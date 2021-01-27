@@ -1,0 +1,4 @@
+# variable declaration
+
+a??? = 4
+b!! = a??? + b!!

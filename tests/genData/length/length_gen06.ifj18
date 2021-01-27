@@ -1,0 +1,6 @@
+# length code gen
+
+s = "\x45\n\x04\xAA\t"
+i = length(s)
+
+print i

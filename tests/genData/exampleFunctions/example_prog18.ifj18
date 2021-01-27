@@ -1,0 +1,22 @@
+#Reverse string function
+
+def reverse_str(s)
+	str_len = length(s)
+	reversed = "\n"
+	substr_res = "\n"
+	str_len_i = "\n"
+
+	i = 0
+	while i < str_len do
+		str_len_i = str_len - i
+		substr_res = substr(s, str_len_i, 1)
+	  reversed = reversed + substr_res
+	  i = i + 1
+	end
+
+	reversed
+end
+
+s = inputs
+s = reverse_str(s)
+print s, "\n"

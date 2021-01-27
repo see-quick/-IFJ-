@@ -1,0 +1,9 @@
+
+def a()
+	b=5
+end
+
+def b()
+end
+
+c = a()

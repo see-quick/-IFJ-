@@ -1,0 +1,7 @@
+#definicia jednoduchej funkcie a jej volanie bez zatvoriek
+
+def foo (a)
+	a = 5
+end
+
+b = foo a

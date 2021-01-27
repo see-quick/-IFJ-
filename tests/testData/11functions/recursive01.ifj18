@@ -1,0 +1,14 @@
+# recursive function call
+
+
+def fooTemp (b)
+
+	if b < 10 then
+		fooTemp (b)
+	else
+		b = b + 1
+	end
+end
+
+a = 1
+a = fooTemp(a)

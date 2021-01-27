@@ -1,0 +1,8 @@
+a = "Hello"
+b = "Leed"
+
+if a == b then
+	a = "yes"
+else
+	a = "no"
+end

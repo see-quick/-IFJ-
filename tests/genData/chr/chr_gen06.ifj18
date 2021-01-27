@@ -1,0 +1,6 @@
+# chr code gen
+
+i = 132
+s = chr i 
+
+print s

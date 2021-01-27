@@ -1,0 +1,13 @@
+#testovanie zlozitejsich identifikatorov pre premenne
+
+var_iable = 1
+my01 = 1
+aNewVariable = 1
+aNEWVARIABLE = 1
+_ID = 1
+____ = 1
+____variable = 1
+____variable____ = 1
+____0954 = 1
+____0955____ = 1
+____0956AA__52new = 1

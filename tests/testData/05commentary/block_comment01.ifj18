@@ -1,0 +1,16 @@
+#testovanie blokovych komentarov
+#blokove vnorenie - chyba/ignorovat ??
+
+=begin
+=end
+
+=begin
+	dont want this text
+=end
+
+=begin start of 
+a commentary
+=end
+
+=begin	commentary
+	=end

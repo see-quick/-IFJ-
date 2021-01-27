@@ -1,0 +1,13 @@
+#ord test
+
+s = "Hello"
+i = 4 - 5
+
+i = ord s, i
+a = a	# create nil
+
+if a == i then
+	print "YES"
+else
+	print "NO"
+end

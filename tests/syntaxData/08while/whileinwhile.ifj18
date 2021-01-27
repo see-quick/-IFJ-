@@ -1,0 +1,14 @@
+# Program 3: Prace s retezci a vestavenymi funkcemi
+
+s1 = 0
+s2 = 0
+print "Vnoreny while", s1, "\n"
+
+while s1 != 3 do
+	s1 = s1 + 1
+	print "s1=", s1, "\n"
+	while s2 != 3 do
+		s2 = s2 + 1
+		print "s2=", s2, "\n"
+	end
+end

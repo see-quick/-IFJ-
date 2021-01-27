@@ -1,0 +1,4 @@
+# ascii escape
+
+a = "\x64obre"
+print a

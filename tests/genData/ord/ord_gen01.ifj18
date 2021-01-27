@@ -1,0 +1,8 @@
+#ord test
+
+s = "Hello"
+i = 3
+
+i = ord s, i
+
+print i

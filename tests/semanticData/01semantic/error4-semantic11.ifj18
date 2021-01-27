@@ -1,0 +1,9 @@
+# nil comparision
+
+a = a
+
+if a < "hello" then
+	print "YES"
+else
+	print "NO"
+end

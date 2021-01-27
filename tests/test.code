@@ -1,0 +1,97 @@
+.IFJcode18
+JUMP $$main
+LABEL length
+PUSHFRAME
+DEFVAR LF@%retval
+MOVE LF@%retval nil@nil
+STRLEN LF@%retval LF@%1
+POPFRAME
+RETURN
+LABEL chr
+PUSHFRAME
+DEFVAR LF@%retval
+MOVE LF@%retval nil@nil
+GT GF@$result LF@%1 int@255
+JUMPIFEQ $chr_error4 GF@$result bool@true
+INT2CHAR  LF@%retval LF@%1
+JUMP $chr_end
+LABEL $chr_error4
+EXIT int@4
+LABEL $chr_end
+POPFRAME
+RETURN
+LABEL ord
+PUSHFRAME
+DEFVAR LF@%retval
+MOVE LF@%retval nil@nil
+JUMPIFEQ $ord_end LF@%2 int@0
+STRLEN GF@$$var_integer LF@%1
+LT GF@$$var_double GF@$$var_integer LF@%2
+JUMPIFEQ $ord_end bool@true GF@$$var_double
+SUB LF@%2 LF@%2 int@1
+GETCHAR GF@$$var_string LF@%1 LF@%2
+STRI2INT GF@$$var_integer GF@$$var_string int@0
+MOVE LF@%retval GF@$$var_integer
+JUMP $ord_end
+LABEL $ord_end
+POPFRAME
+RETURN
+LABEL substr
+PUSHFRAME
+DEFVAR LF@%retval
+MOVE LF@%retval nil@nil
+MOVE GF@$result string@
+STRLEN GF@$$var_integer LF@%1
+LT GF@$$var_double GF@$$var_integer LF@%2
+JUMPIFEQ $substr_end bool@true GF@$$var_double
+LT GF@$$var_double  GF@$$var_integer LF@%3
+JUMPIFEQ $substr_n_err bool@true GF@$$var_double
+EQ GF@$$var_double LF@%2 int@0
+JUMPIFEQ $substr_end bool@true GF@$$var_double
+LT GF@$$var_double LF@%3 int@0
+JUMPIFEQ $substr_end bool@true GF@$$var_double
+JUMP $label_substr_read
+LABEL $substr_n_err
+EQ GF@$$var_double LF@%2 GF@$$var_integer
+JUMPIFEQ $label_substr GF@$$var_double bool@true
+GETCHAR GF@$$var_string LF@%1 LF@%2
+CONCAT GF@$result GF@$result GF@$$var_string
+ADD LF@%2 LF@%2 int@1
+JUMP $substr_n_err
+LABEL $label_substr_read
+EQ GF@$$var_double LF@%2 LF@%3
+JUMPIFEQ $label_substr GF@$$var_double bool@true
+GETCHAR GF@$$var_string LF@%1 LF@%2
+CONCAT GF@$result GF@$result GF@$$var_string
+ADD LF@%2 LF@%2 int@1
+JUMP $label_substr_read
+LABEL $label_substr
+MOVE LF@%retval GF@$result
+LABEL $substr_end
+POPFRAME
+RETURN
+LABEL $$main
+DEFVAR GF@$$var_integer
+MOVE GF@$$var_integer int@0
+DEFVAR GF@$$var_double
+MOVE GF@$$var_double float@0x0p+0
+DEFVAR GF@$$var_string
+MOVE GF@$$var_string string@
+DEFVAR GF@$$EXPR1
+MOVE GF@$$EXPR1 int@0
+DEFVAR GF@$$EXPR2
+MOVE GF@$$EXPR2 int@0
+DEFVAR GF@$result
+DEFVAR GF@$type
+DEFVAR GF@$tmp
+DEFVAR GF@$tmp2
+DEFVAR GF@$type1
+DEFVAR GF@$type2
+CREATEFRAME
+PUSHFRAME
+DEFVAR LF@a
+MOVE GF@$result float@0x1.c28f5c28f5c29p-4
+MOVE LF@a GF@$result
+READ LF@a float
+WRITE LF@a
+EXIT int@0

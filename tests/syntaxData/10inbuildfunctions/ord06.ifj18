@@ -1,0 +1,4 @@
+# Simple ord(s,i) calling without brackets
+
+stri = "Hello"
+myvar = ord stri, 3

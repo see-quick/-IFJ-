@@ -1,0 +1,11 @@
+# definice funkce f_top, která volá funkce f_inner
+def f_top()
+t = f_inner()
+end
+
+# hlavní tělo programu - jedinný příkaz volající f_top
+x = f_top()
+# definice fce f_inner()
+def f_inner()
+i = 10
+end

@@ -1,0 +1,7 @@
+a = "Hello"
+
+if a != 42.42 then
+	a = "yes"
+else
+	a = "no"
+end

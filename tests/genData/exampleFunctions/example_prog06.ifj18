@@ -1,0 +1,24 @@
+#count prime number
+
+def primeNumber(a)
+   
+    divider = a - 1
+    
+    while divider > 1 do
+    
+        if ((a / divider) * divider) == a then
+            a = 0
+        else
+        	divider = divider - 1
+		end
+    end
+end
+
+number = inputi
+return_val = primeNumber(number)  
+
+if return_val == 0 then
+	print "\nNumber ", number, " is not a prime number\n"
+else
+	print "\nNumber ", number, " is a prime number\n"
+end

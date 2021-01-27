@@ -1,0 +1,7 @@
+a = 5
+
+if a == 6.65 then
+	a = 7.45
+else
+	a = 6.45
+end

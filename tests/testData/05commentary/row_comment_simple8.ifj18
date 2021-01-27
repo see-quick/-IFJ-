@@ -1,0 +1,10 @@
+#test riadkovych komentarov
+# cmnt
+c = 1 # cmnt
+# cmnt
+# cmnt
+c = 2 # cmnt
+# cmnt
+# cmnt
+c = 3 # cmnt
+# cmnt

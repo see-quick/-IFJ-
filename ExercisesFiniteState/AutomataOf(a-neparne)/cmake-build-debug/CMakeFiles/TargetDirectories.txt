@@ -1,0 +1,3 @@
+/var/www/html/School/5.semester/IFJ/PractisAutomata/AutomataOf(a-neparne)/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/var/www/html/School/5.semester/IFJ/PractisAutomata/AutomataOf(a-neparne)/cmake-build-debug/CMakeFiles/edit_cache.dir
+/var/www/html/School/5.semester/IFJ/PractisAutomata/AutomataOf(a-neparne)/cmake-build-debug/CMakeFiles/LEX.dir

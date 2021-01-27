@@ -1,0 +1,7 @@
+# Count modulo
+def modulo(divider, divident)
+    result = divider - (divider/divident)*divident
+end
+
+a = modulo (10, 4)
+print a, "\n"

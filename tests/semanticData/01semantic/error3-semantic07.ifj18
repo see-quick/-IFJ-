@@ -1,0 +1,11 @@
+#redef fce
+
+def foo (k)
+	k = 1 + 2
+end
+
+def foo (k)
+	k = 1 + 2
+end
+
+c = foo(k)

@@ -1,0 +1,7 @@
+#int to float
+a = 2
+if a == 2.0 then
+	print("convert")
+else
+	print("error?")
+end

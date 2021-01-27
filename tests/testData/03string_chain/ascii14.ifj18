@@ -1,0 +1,3 @@
+# ascii escape
+
+a = "\x4\x56"

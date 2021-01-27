@@ -1,0 +1,8 @@
+a = 5
+b = 7.456
+
+if a < b then
+	a = 6.452
+else
+	b = 6.4568
+end

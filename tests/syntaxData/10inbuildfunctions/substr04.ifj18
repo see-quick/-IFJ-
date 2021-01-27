@@ -1,0 +1,3 @@
+# simple substr
+
+mynewstr = substr("Helloooo",2,4)

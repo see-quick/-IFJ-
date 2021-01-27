@@ -1,0 +1,20 @@
+# Draw a pyramide
+
+print "Enter number of rows of pyramide \n"
+rows = inputi
+
+print "\n\n"
+
+i = 1
+j = 1
+
+while i <= rows do
+  j = 1
+  while j <= i do
+
+      print j
+      j = j + 1
+  end
+  print "\n"
+  i = i + 1
+end

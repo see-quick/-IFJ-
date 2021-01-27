@@ -1,0 +1,6 @@
+#definicia jednoduchej funkcie bez param
+
+def foo ()
+end
+
+a = foo()

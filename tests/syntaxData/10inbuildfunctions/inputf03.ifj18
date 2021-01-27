@@ -1,0 +1,5 @@
+#basic usage inputf without brackets
+
+dec = 5.23
+str2 = inputf
+

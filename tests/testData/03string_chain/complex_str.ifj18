@@ -1,0 +1,13 @@
+#test zlositejsich retazcovych literalov
+
+chain = "\""
+chain = "\n"
+chain = "\t"
+chain = "\s"
+chain = "\\"
+chain = "\x22" # x22 == "
+chain = "\x40" # x40 == @
+chain = "\x7E" # x7E == ~
+chain = "Ahoj\nSve'te\s\\\x22"
+chain = "\""
+chain = "\"\""

@@ -1,0 +1,8 @@
+# Testing length(s) in function
+
+def foo(a)
+	b = length(a)
+end
+
+str = "Hello"
+count = foo(str)

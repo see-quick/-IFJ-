@@ -1,0 +1,3 @@
+a = "AHOJ"
+b = "JOHA"
+c = a + b

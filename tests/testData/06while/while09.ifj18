@@ -1,0 +1,16 @@
+#test pre while
+
+def foo (a)
+	b = 4
+	while a < 3 do
+		a = a + 1
+		while b < 10 do
+			a = a + 1
+			b = b + 1
+		end
+	end
+end
+
+a = 1
+
+b = foo a

@@ -1,0 +1,3 @@
+# Simple ord(s,i) calling
+
+myvar = ord("Hello", 3)

@@ -1,0 +1,4 @@
+# inputs test
+
+a = inputs
+a = "world" != a

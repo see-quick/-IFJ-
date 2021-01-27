@@ -1,0 +1,14 @@
+# Sum ord values in string		
+
+    b = "c"
+    a = "hgdfhDFGkf5665678"
+    i = 1
+	lengthA = length(a)
+
+    while i <= lengthA do
+		res = ord(a, i)
+        b = b + res
+        i = i + 1
+    end
+    
+    print b		#tu si nie som isty ci to b musi byt definovane aj pred while alebo nemusi

@@ -1,0 +1,8 @@
+a = 5.0
+b = 7.0
+
+if a < b then
+	a = 6.1
+else
+	b = 6.1
+end

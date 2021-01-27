@@ -1,0 +1,6 @@
+#while bez do
+s1 = 0
+while s1 != 3
+	s1 = s1 + 1
+	print "s1=", s1, "\n"
+end

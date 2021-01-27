@@ -1,0 +1,6 @@
+#while nil < 5
+
+while a < 5 do
+	a = a + 1
+	print(" a = ", a, "\n")
+end

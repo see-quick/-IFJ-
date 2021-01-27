@@ -1,0 +1,6 @@
+#function redeclaration
+
+def a()
+end
+
+a = 5

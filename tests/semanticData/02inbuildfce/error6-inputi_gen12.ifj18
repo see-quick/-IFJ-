@@ -1,0 +1,4 @@
+# inputi test
+
+a = inputi
+a = 5 < a

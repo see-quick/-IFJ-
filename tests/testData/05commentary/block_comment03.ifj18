@@ -1,0 +1,15 @@
+#block
+
+=begin
+
+comment
+=beg
+NOT a block inside block
+=en
+
+=end
+
+=begin
+comment
+=en
+=end

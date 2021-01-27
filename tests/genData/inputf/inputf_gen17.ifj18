@@ -1,0 +1,4 @@
+# inputf test
+
+a = inputf
+a = 5.32 * a

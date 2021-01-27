@@ -1,0 +1,12 @@
+# Program 4: count square area
+
+
+square_side = 0
+area = 0
+
+   print ("\nEnter the whole side of square\x20\n")
+   square_side = inputi
+   #calculation of the area
+   area = square_side * square_side
+
+   print("\nArea of the square\x20", area, "\n")

@@ -1,0 +1,32 @@
+#test pre while
+
+def foo (a, b)
+
+	while a != 10 do
+		a = a + 1
+		if b != 4 then
+			b = b * 4
+		else
+			b = b / 4
+		end
+	
+		while a != 12 do
+			a = a + 1
+
+			while a != 14 do
+				a = a + 1
+				
+				if b == 160 then
+					b = b * 4
+				else
+					b = b / 4
+				end
+			end	 
+		end	 
+	end
+end
+
+a = 1
+c = 40
+
+b = foo a, c

@@ -1,0 +1,4 @@
+#Vyvolanie lexikalneho erroru pri pouzivani retazcov
+
+chain = "Multi line
+		 string chain"

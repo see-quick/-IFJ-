@@ -1,0 +1,8 @@
+#declaration of function with ! and ?
+
+def foo? (a)
+	a = a +1
+end
+
+b = 5
+b = foo? a

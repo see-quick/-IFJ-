@@ -1,0 +1,11 @@
+#test pre while
+
+def foo (a)
+	while a > 3 do
+		a = a + 1
+	end
+end
+
+a = 1
+
+b = foo a

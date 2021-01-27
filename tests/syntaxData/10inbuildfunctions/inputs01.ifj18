@@ -1,0 +1,4 @@
+# basic inputs usage
+
+str = "My little text"
+str = inputs()

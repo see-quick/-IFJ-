@@ -1,0 +1,4 @@
+# Error missing one parenthessis
+
+a = "String"
+a = inputi(

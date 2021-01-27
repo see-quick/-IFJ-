@@ -1,0 +1,3 @@
+#Vyvolanie lexikalneho erroru pri desatinnych cislach
+
+number = 1e 3

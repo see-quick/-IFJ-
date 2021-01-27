@@ -1,0 +1,4 @@
+# inputi test
+
+a = inputi
+a = a >= 5.23

@@ -1,0 +1,8 @@
+#ord test
+
+s = "He\x4Bllo"
+i = 3
+
+i = ord s, i
+
+print i

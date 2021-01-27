@@ -1,0 +1,12 @@
+#test pre while
+
+a = 10
+
+while a < 5 do
+	a = a + 1
+	b = 1
+
+	while b > 3 do
+		b = b + 1
+	end	 
+end

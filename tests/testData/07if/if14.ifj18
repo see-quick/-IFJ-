@@ -1,0 +1,34 @@
+#tests for if statement
+
+a = 10
+
+if a > 6 then
+	a = 5
+	if a > 3 then
+		a = 4
+		if a > 3 then
+			a = 5
+			if a > 3 then
+				a = 4
+				if a > 3 then
+					a = 5
+					if a > 3 then
+						a = 4
+					else
+						a = 555
+					end
+				else
+					a = 555
+				end
+			else
+				a = 555
+			end
+		else
+			a = 555
+		end
+	else
+		a = 555
+	end
+else
+	print a
+end

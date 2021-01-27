@@ -1,0 +1,7 @@
+a = 5
+
+if a > 7 then
+	a = 6
+else
+	a = 7
+end

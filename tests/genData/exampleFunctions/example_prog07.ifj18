@@ -1,0 +1,13 @@
+# Swap
+
+a = 10
+b = 30
+
+print a, b, "\n"
+
+temp = b
+
+b = a
+a = temp
+
+print a, b,"\n"

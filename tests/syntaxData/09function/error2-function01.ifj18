@@ -1,0 +1,4 @@
+#dash after last param
+def foo(a, b, c,)
+	a = 5
+end

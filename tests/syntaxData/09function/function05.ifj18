@@ -1,0 +1,17 @@
+#multiple functions
+
+def foo1 (a)
+ a = 5 
+end
+
+def foo2 (a)
+ a = 5 
+end
+
+def foo3 (a)
+ a = 5 
+end
+
+def foo4 (a)
+ a = 5 
+end

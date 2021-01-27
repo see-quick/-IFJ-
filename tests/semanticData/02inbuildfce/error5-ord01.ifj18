@@ -1,0 +1,4 @@
+# Error in ord param
+
+i = 0
+var = ord("hello", 4, i)
